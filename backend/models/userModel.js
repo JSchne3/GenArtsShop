@@ -1,27 +1,30 @@
 import mongoose from 'mongoose'
 
-const userSchema = mongoose.Schema({
+const userSchema = mongoose.Schema(
+    {
     name: {
         type: String, 
-        required: true
+        required: true,
     }, 
     email: {
         type: String, 
         required: true, 
-        unqiue: true
+        unqiue: true,
     }, 
     password: {
         type: String, 
-        required: true
+        required: true,
     }, 
     isAdmin: {
         type: Boolean, 
         required: true, 
-        default: false
+        default: false,
     }
-}, {
-    timestamps: true
-})
+}, 
+{
+    timestamps: true, 
+}
+)
 
 const User = mongoose.model('User', userSchema)
 

@@ -1,7 +1,7 @@
 const products = [
   {
     name: 'Awoo/Don\'t Awoo Coin',
-    image: '/images/awwocoin.jpg',
+    image: '/images/awoocoin.jpg',
     description:
       'Each coin Approximately 1.5\” at widest point Nickel metal plated Not sure to Awoo or Don\'t? Flip this coin to decide!',
     brand: 'Handmade',
