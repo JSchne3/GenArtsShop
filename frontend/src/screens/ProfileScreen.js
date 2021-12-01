@@ -52,7 +52,7 @@ const ProfileScreen = ({location, history}) => {
             {error && <Message variant='danger'>{error}</Message>}
             {success && <Message variant='success'>Profile Updated</Message>}
             {loading && <Loader />}
-            <Form onSubmit={submitHandler}>
+            <Form onSubmit={submitHandler} className='formPadding'>
                 <Form.Group controlId='name'> 
                     <Form.Label>Name</Form.Label>
                     <Form.Control type='text' placeholder='Enter name' value={name} onChange={(e) => setName(e.target.value)}></Form.Control>
