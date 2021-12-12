@@ -8,8 +8,8 @@ const products = [
     category: 'Crafts',
     price: 12.00,
     countInStock: 24,
-    rating: 5,
-    numReviews: 10,
+    rating: 0,
+    numReviews: 0,
   },
   {
     name: 'Masks and Bandanas by Undlark',
@@ -19,9 +19,9 @@ const products = [
     brand: 'Collab',
     category: 'Crafts',
     price: 12.00,
-    countInStock: 10,
-    rating: 4.0,
-    numReviews: 3,
+    countInStock: 12,
+    rating: 0,
+    numReviews: 0,
   },
   {
     name: 'Cat at the Koi Pond Enamel Pin',
@@ -32,8 +32,8 @@ const products = [
     category: 'Crafts',
     price: 15.00,
     countInStock: 15,
-    rating: 3,
-    numReviews: 12,
+    rating: 0,
+    numReviews: 0,
   },
   {
     name: 'Apocalypse Horse Enamel Pins',
@@ -44,8 +44,8 @@ const products = [
     category: 'Crafts',
     price: 7.00, 
     countInStock: 30,
-    rating: 5,
-    numReviews: 12,
+    rating: 0,
+    numReviews: 0,
   },
   {
     name: 'Bandana and Masks',
@@ -56,8 +56,8 @@ const products = [
     category: 'Crafts',
     price: 20.00,
     countInStock: 7,
-    rating: 3.5,
-    numReviews: 10,
+    rating: 0,
+    numReviews: 0,
   },
   {
     name: 'Scarves',
@@ -68,8 +68,8 @@ const products = [
     category: 'Crafts',
     price: 30.00,
     countInStock: 70,
-    rating: 4,
-    numReviews: 12,
+    rating: 0,
+    numReviews: 0,
   },
 ]
 
