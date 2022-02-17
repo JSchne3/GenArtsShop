@@ -1,6 +1,8 @@
 # GenArtsShop
 Basic E-Commerce web App. All products used for demonstration credit to https://twitter.com/sweetcreamarts 
 
+Created using the MERN tech stack. MongoDB, Express, React/ Redux, and Node.js
+
 Note to self: Revisit this in the future with the following improvements. . . 
 > Product subsection/ style/ pricing connections.     
 > Streamline checkout process.     
